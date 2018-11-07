@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke,Firefox 61.0,,2018-10-16 17:40:12,2018-10-16 17:40:42,"29,354s",PASSED
+,,,,,,
+Test Cases/Login page check,Firefox 61.0,,2018-10-16 17:40:13,2018-10-16 17:40:24,"10,767s",PASSED
+openBrowser,Firefox 61.0,,2018-10-16 17:40:13,2018-10-16 17:40:21,"7,996s",PASSED
+maximizeWindow,Firefox 61.0,,2018-10-16 17:40:21,2018-10-16 17:40:22,"0,599s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:22,2018-10-16 17:40:23,"0,771s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:23,2018-10-16 17:40:23,"0,056s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:23,2018-10-16 17:40:23,"0,076s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:23,2018-10-16 17:40:23,"0,060s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:23,2018-10-16 17:40:23,"0,055s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:23,2018-10-16 17:40:23,"0,058s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:23,2018-10-16 17:40:23,"0,064s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:23,2018-10-16 17:40:23,"0,051s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:23,2018-10-16 17:40:23,"0,052s",PASSED
+closeBrowser,Firefox 61.0,,2018-10-16 17:40:23,2018-10-16 17:40:24,"0,378s",PASSED
+,,,,,,
+Test Cases/Logins test,Firefox 61.0,,2018-10-16 17:40:24,2018-10-16 17:40:34,"10,148s",PASSED
+openBrowser,Firefox 61.0,,2018-10-16 17:40:24,2018-10-16 17:40:30,"6,116s",PASSED
+maximizeWindow,Firefox 61.0,,2018-10-16 17:40:30,2018-10-16 17:40:31,"0,708s",PASSED
+setText,Firefox 61.0,,2018-10-16 17:40:31,2018-10-16 17:40:32,"1,026s",PASSED
+setText,Firefox 61.0,,2018-10-16 17:40:32,2018-10-16 17:40:32,"0,252s",PASSED
+click,Firefox 61.0,,2018-10-16 17:40:32,2018-10-16 17:40:32,"0,339s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:32,2018-10-16 17:40:33,"1,084s",PASSED
+closeBrowser,Firefox 61.0,,2018-10-16 17:40:33,2018-10-16 17:40:34,"0,377s",PASSED
+,,,,,,
+Test Cases/Logins test,Firefox 61.0,,2018-10-16 17:40:34,2018-10-16 17:40:42,"7,906s",PASSED
+openBrowser,Firefox 61.0,,2018-10-16 17:40:34,2018-10-16 17:40:38,"4,316s",PASSED
+maximizeWindow,Firefox 61.0,,2018-10-16 17:40:38,2018-10-16 17:40:39,"0,662s",PASSED
+setText,Firefox 61.0,,2018-10-16 17:40:39,2018-10-16 17:40:40,"1,087s",PASSED
+setText,Firefox 61.0,,2018-10-16 17:40:40,2018-10-16 17:40:40,"0,275s",PASSED
+click,Firefox 61.0,,2018-10-16 17:40:40,2018-10-16 17:40:40,"0,306s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 17:40:40,2018-10-16 17:40:41,"1,008s",PASSED
+closeBrowser,Firefox 61.0,,2018-10-16 17:40:41,2018-10-16 17:40:42,"0,234s",PASSED

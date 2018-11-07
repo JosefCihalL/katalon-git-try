@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Advanced,Chrome 70.0.3538.67,,2018-10-24 15:44:07,2018-10-24 15:45:31,"1m - 24,153s",FAILED
+,,,,,,
+Test Cases/Payments/SmartPayment,Chrome 70.0.3538.67,,2018-10-24 15:44:07,2018-10-24 15:44:38,"30,421s",PASSED
+callTestCase,Chrome 70.0.3538.67,,2018-10-24 15:44:09,2018-10-24 15:44:29,"19,966s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:44:29,2018-10-24 15:44:29,"0,080s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:44:29,2018-10-24 15:44:29,"0,223s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:44:29,2018-10-24 15:44:30,"0,843s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:44:30,2018-10-24 15:44:30,"0,535s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:44:30,2018-10-24 15:44:31,"0,268s",PASSED
+delay,Chrome 70.0.3538.67,,2018-10-24 15:44:31,2018-10-24 15:44:32,"1,022s",PASSED
+Statement - CountryStep1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Payments/Sundry accounts/External payment/Select_Bank account coutry)),Chrome 70.0.3538.67,,2018-10-24 15:44:32,2018-10-24 15:44:32,"0,177s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:44:32,2018-10-24 15:44:32,"0,174s",PASSED
+"Statement - If (CountryStep1 == ""Czech Republic"")",Chrome 70.0.3538.67,,2018-10-24 15:44:32,2018-10-24 15:44:32,"0,001s",PASSED
+"Statement - Else If (CountryStep1 == ""Bulgaria"")",Chrome 70.0.3538.67,,2018-10-24 15:44:32,2018-10-24 15:44:32,"0,001s",PASSED
+Statement - Else,Chrome 70.0.3538.67,,2018-10-24 15:44:32,2018-10-24 15:44:37,"4,928s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:44:37,2018-10-24 15:44:37,"0,114s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:44:37,2018-10-24 15:44:38,"0,647s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:44:38,2018-10-24 15:44:38,"0,042s",PASSED
+,,,,,,
+Test Cases/Payments/SmartPayment,Chrome 70.0.3538.67,,2018-10-24 15:44:38,2018-10-24 15:45:04,"25,966s",FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-24 15:44:38,2018-10-24 15:44:48,"10,242s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:44:48,2018-10-24 15:44:48,"0,083s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:44:48,2018-10-24 15:44:48,"0,184s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:44:48,2018-10-24 15:44:50,"1,194s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:44:50,2018-10-24 15:44:50,"0,470s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:44:50,2018-10-24 15:44:50,"0,223s",PASSED
+delay,Chrome 70.0.3538.67,,2018-10-24 15:44:50,2018-10-24 15:44:51,"1,002s",PASSED
+Statement - CountryStep1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Payments/Sundry accounts/External payment/Select_Bank account coutry)),Chrome 70.0.3538.67,,2018-10-24 15:44:51,2018-10-24 15:44:51,"0,127s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:44:51,2018-10-24 15:44:52,"0,225s",PASSED
+"Statement - If (CountryStep1 == ""Czech Republic"")",Chrome 70.0.3538.67,,2018-10-24 15:44:52,2018-10-24 15:44:52,"0,001s",PASSED
+"Statement - Else If (CountryStep1 == ""Bulgaria"")",Chrome 70.0.3538.67,,2018-10-24 15:44:52,2018-10-24 15:44:52,"0,000s",PASSED
+Statement - Else,Chrome 70.0.3538.67,,2018-10-24 15:44:52,2018-10-24 15:45:04,"12,153s",FAILED
+,,,,,,
+Test Cases/Payments/SmartPayment,Chrome 70.0.3538.67,,2018-10-24 15:45:04,2018-10-24 15:45:31,"26,922s",FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-24 15:45:04,2018-10-24 15:45:14,"10,206s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:45:14,2018-10-24 15:45:14,"0,068s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:45:14,2018-10-24 15:45:14,"0,169s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:45:14,2018-10-24 15:45:15,"1,111s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:45:15,2018-10-24 15:45:16,"0,507s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:45:16,2018-10-24 15:45:16,"0,262s",PASSED
+delay,Chrome 70.0.3538.67,,2018-10-24 15:45:16,2018-10-24 15:45:17,"1,010s",PASSED
+Statement - CountryStep1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Payments/Sundry accounts/External payment/Select_Bank account coutry)),Chrome 70.0.3538.67,,2018-10-24 15:45:17,2018-10-24 15:45:17,"0,092s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:45:17,2018-10-24 15:45:17,"0,165s",PASSED
+"Statement - If (CountryStep1 == ""Czech Republic"")",Chrome 70.0.3538.67,,2018-10-24 15:45:17,2018-10-24 15:45:17,"0,000s",PASSED
+"Statement - Else If (CountryStep1 == ""Bulgaria"")",Chrome 70.0.3538.67,,2018-10-24 15:45:17,2018-10-24 15:45:17,"0,001s",PASSED
+Statement - Else,Chrome 70.0.3538.67,,2018-10-24 15:45:17,2018-10-24 15:45:31,"13,283s",FAILED

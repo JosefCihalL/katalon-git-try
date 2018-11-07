@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create new sundry account (mobile)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4075934-4970-4649-9090-ac5f271ac933</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3fbcbd5c-c6e2-4b95-98d7-3f46190a3106</id>
+      <masked>false</masked>
+      <name>AccountName</name>
+   </variable>
+</TestCaseEntity>

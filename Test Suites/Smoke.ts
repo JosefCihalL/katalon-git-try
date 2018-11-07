@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Smoke</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-10-29T14:27:01</lastRun>
+   <mailRecipient>josef.cihal@leveris.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>4fc9bd44-88b9-4293-bad6-8d9364ccf712</testSuiteGuid>
+   <testCaseLink>
+      <guid>53c23acb-93e1-4759-92b2-0da2b1472cec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Logins test</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>43f9e8a1-b8fa-42ea-ac4c-30d3ffb5372b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Logins</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>43f9e8a1-b8fa-42ea-ac4c-30d3ffb5372b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>53251e22-83c8-4c4b-a452-2967cf124387</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>43f9e8a1-b8fa-42ea-ac4c-30d3ffb5372b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>0750d03f-d394-4f56-b1e3-1e2225ee219f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

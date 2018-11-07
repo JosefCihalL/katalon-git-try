@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="42" tests="2" failures="0" errors="0">
+   <testsuite name="Smoke" tests="2" failures="0" errors="0" time="42" timestamp="2018-10-25 11:32:37" hostname="josefcihal - 192.168.5.147" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value="samsung SM-G965F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/josefcihal/Katalon Studio/Leveris POC/Reports/Smoke/20181025_113224"/>
+         <property name="logFiles" value="/Users/josefcihal/Katalon Studio/Leveris POC/Reports/Smoke/20181025_113224/execution0.log, /Users/josefcihal/Katalon Studio/Leveris POC/Reports/Smoke/20181025_113224/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="josefcihal - 192.168.5.147"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.3.2"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="sessionId" value="b35dadad-bc9c-4d7b-8f96-8b0da6e9c59d"/>
+         <property name="deviceId" value="21fa26a4270c7ece"/>
+         <property name="deviceName" value="samsung SM-G965F (Android 8.0.0)"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+         <property name="platform" value="Mac OS X"/>
+         <property name="browser" value="Chrome 70.0.3538.64"/>
+         <property name="deviceModel" value="SM-G965F"/>
+         <property name="hostAddress" value="192.168.5.147"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+      </properties>
+      <testcase name="Test Cases/Logins test" classname="Test Cases/Logins test" status="PASSED">
+         <system-out><![CDATA[2018-10-25 11:32:37 - [TEST_CASE][PASSED] - Test Cases/Logins test: Test Cases/Logins test
+
+2018-10-25 11:32:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dvk.deltecdev.com/operator/'
+
+2018-10-25 11:32:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dvk.deltecdev.com/operator/'
+
+2018-10-25 11:32:56 - [TEST_STEP][PASSED] - setText: Text 'john.doe@leveris.com' is set on object 'Object Repository/Login page/Input_Email'
+
+2018-10-25 11:32:58 - [MESSAGE][PASSED] - Text 'john.doe@leveris.com' is set on object 'Object Repository/Login page/Input_Email'
+
+2018-10-25 11:32:58 - [TEST_STEP][PASSED] - setText: Text 'Password1122' is set on object 'Object Repository/Login page/Input_Password'
+
+2018-10-25 11:32:59 - [MESSAGE][PASSED] - Text 'Password1122' is set on object 'Object Repository/Login page/Input_Password'
+
+2018-10-25 11:32:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login page/Button_Log in' is clicked on
+
+2018-10-25 11:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/Button_Log in' is clicked on
+
+2018-10-25 11:33:00 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Home page/Label_Home' is visible
+
+2018-10-25 11:33:01 - [MESSAGE][PASSED] - Object 'Object Repository/Home page/Label_Home' is visible
+
+2018-10-25 11:33:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 11:33:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logins test" classname="Test Cases/Logins test" status="PASSED">
+         <system-out><![CDATA[2018-10-25 11:33:02 - [TEST_CASE][PASSED] - Test Cases/Logins test: Test Cases/Logins test
+
+2018-10-25 11:33:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dvk.deltecdev.com/operator/'
+
+2018-10-25 11:33:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dvk.deltecdev.com/operator/'
+
+2018-10-25 11:33:14 - [TEST_STEP][PASSED] - setText: Text 'test.operator@leveris.com' is set on object 'Object Repository/Login page/Input_Email'
+
+2018-10-25 11:33:16 - [MESSAGE][PASSED] - Text 'test.operator@leveris.com' is set on object 'Object Repository/Login page/Input_Email'
+
+2018-10-25 11:33:16 - [TEST_STEP][PASSED] - setText: Text 'Password1122' is set on object 'Object Repository/Login page/Input_Password'
+
+2018-10-25 11:33:17 - [MESSAGE][PASSED] - Text 'Password1122' is set on object 'Object Repository/Login page/Input_Password'
+
+2018-10-25 11:33:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login page/Button_Log in' is clicked on
+
+2018-10-25 11:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/Button_Log in' is clicked on
+
+2018-10-25 11:33:17 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Home page/Label_Home' is visible
+
+2018-10-25 11:33:19 - [MESSAGE][PASSED] - Object 'Object Repository/Home page/Label_Home' is visible
+
+2018-10-25 11:33:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-25 11:33:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-25 11:32:37 - [TEST_SUITE][PASSED] - Smoke: Test Cases/Logins test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

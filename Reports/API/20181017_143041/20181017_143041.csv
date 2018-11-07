@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API,,,2018-10-17 14:30:53,2018-10-17 14:30:56,"2,596s",PASSED
+,,,,,,
+Test Cases/API/API smoke,,,2018-10-17 14:30:54,2018-10-17 14:30:55,"1,273s",PASSED
+sendRequestAndVerify,,,2018-10-17 14:30:54,2018-10-17 14:30:55,"0,835s",PASSED
+,,,,,,
+Test Cases/API/API smoke,,,2018-10-17 14:30:55,2018-10-17 14:30:55,"0,297s",PASSED
+sendRequestAndVerify,,,2018-10-17 14:30:55,2018-10-17 14:30:55,"0,260s",PASSED
+,,,,,,
+Test Cases/API/API smoke,,,2018-10-17 14:30:55,2018-10-17 14:30:55,"0,281s",PASSED
+sendRequestAndVerify,,,2018-10-17 14:30:55,2018-10-17 14:30:55,"0,267s",PASSED

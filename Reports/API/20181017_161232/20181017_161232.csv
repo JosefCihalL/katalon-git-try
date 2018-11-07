@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API,,,2018-10-17 16:12:45,2018-10-17 16:12:47,"1,746s",ERROR
+,,,,,,
+Test Cases/API/API smoke,,,2018-10-17 16:12:46,2018-10-17 16:12:47,"0,761s",ERROR
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API test, [Prefix:Prefix, URL:URLE]))",,,2018-10-17 16:12:46,2018-10-17 16:12:47,"0,337s",PASSED
+verifyResponseStatusCode,,,2018-10-17 16:12:47,2018-10-17 16:12:47,"0,004s",PASSED
+,,,,,,
+Test Cases/API/API smoke,,,2018-10-17 16:12:47,2018-10-17 16:12:47,"0,179s",ERROR
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API test, [Prefix:Prefix, URL:URLE]))",,,2018-10-17 16:12:47,2018-10-17 16:12:47,"0,100s",PASSED
+verifyResponseStatusCode,,,2018-10-17 16:12:47,2018-10-17 16:12:47,"0,002s",PASSED
+,,,,,,
+Test Cases/API/API smoke,,,2018-10-17 16:12:47,2018-10-17 16:12:47,"0,214s",ERROR
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API test, [Prefix:Prefix, URL:URLE]))",,,2018-10-17 16:12:47,2018-10-17 16:12:47,"0,116s",PASSED
+verifyResponseStatusCode,,,2018-10-17 16:12:47,2018-10-17 16:12:47,"0,006s",PASSED

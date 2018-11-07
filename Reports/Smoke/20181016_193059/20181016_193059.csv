@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Smoke,Firefox 61.0,,2018-10-16 19:32:15,2018-10-16 19:33:04,"49,665s",PASSED
+,,,,,,
+Test Cases/Login page check,Firefox 61.0,,2018-10-16 19:32:15,2018-10-16 19:32:26,"11,208s",PASSED
+openBrowser,Firefox 61.0,,2018-10-16 19:32:16,2018-10-16 19:32:24,"7,889s",PASSED
+maximizeWindow,Firefox 61.0,,2018-10-16 19:32:24,2018-10-16 19:32:24,"0,696s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:24,2018-10-16 19:32:25,"0,674s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:25,2018-10-16 19:32:25,"0,090s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:25,2018-10-16 19:32:26,"0,591s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:26,2018-10-16 19:32:26,"0,064s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:26,2018-10-16 19:32:26,"0,079s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:26,2018-10-16 19:32:26,"0,049s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:26,2018-10-16 19:32:26,"0,053s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:26,2018-10-16 19:32:26,"0,104s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:26,2018-10-16 19:32:26,"0,051s",PASSED
+closeBrowser,Firefox 61.0,,2018-10-16 19:32:26,2018-10-16 19:32:26,"0,295s",PASSED
+,,,,,,
+Test Cases/Logins test,Firefox 61.0,,2018-10-16 19:32:26,2018-10-16 19:32:35,"8,670s",PASSED
+openBrowser,Firefox 61.0,,2018-10-16 19:32:27,2018-10-16 19:32:32,"4,986s",PASSED
+maximizeWindow,Firefox 61.0,,2018-10-16 19:32:32,2018-10-16 19:32:32,"0,680s",PASSED
+setText,Firefox 61.0,,2018-10-16 19:32:32,2018-10-16 19:32:33,"1,024s",PASSED
+setText,Firefox 61.0,,2018-10-16 19:32:33,2018-10-16 19:32:33,"0,142s",PASSED
+click,Firefox 61.0,,2018-10-16 19:32:33,2018-10-16 19:32:34,"0,310s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:34,2018-10-16 19:32:35,"1,070s",PASSED
+closeBrowser,Firefox 61.0,,2018-10-16 19:32:35,2018-10-16 19:32:35,"0,276s",PASSED
+,,,,,,
+Test Cases/Logins test,Firefox 61.0,,2018-10-16 19:32:35,2018-10-16 19:32:44,"8,598s",PASSED
+openBrowser,Firefox 61.0,,2018-10-16 19:32:35,2018-10-16 19:32:40,"4,868s",PASSED
+maximizeWindow,Firefox 61.0,,2018-10-16 19:32:40,2018-10-16 19:32:41,"0,771s",PASSED
+setText,Firefox 61.0,,2018-10-16 19:32:41,2018-10-16 19:32:42,"1,088s",PASSED
+setText,Firefox 61.0,,2018-10-16 19:32:42,2018-10-16 19:32:42,"0,272s",PASSED
+click,Firefox 61.0,,2018-10-16 19:32:42,2018-10-16 19:32:42,"0,284s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:42,2018-10-16 19:32:43,"1,045s",PASSED
+closeBrowser,Firefox 61.0,,2018-10-16 19:32:43,2018-10-16 19:32:44,"0,256s",PASSED
+,,,,,,
+Test Cases/Home page check,Firefox 61.0,,2018-10-16 19:32:44,2018-10-16 19:32:54,"10,289s",PASSED
+callTestCase,Firefox 61.0,,2018-10-16 19:32:44,2018-10-16 19:32:52,"8,590s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:52,2018-10-16 19:32:53,"0,048s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,041s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,038s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,037s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,053s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,106s",PASSED
+click,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,246s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,105s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,050s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,048s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,035s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,029s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,045s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,039s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:53,"0,043s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:53,2018-10-16 19:32:54,"0,115s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:32:54,2018-10-16 19:32:54,"0,060s",PASSED
+closeBrowser,Firefox 61.0,,2018-10-16 19:32:54,2018-10-16 19:32:54,"0,318s",PASSED
+,,,,,,
+Test Cases/Payments/Dashboard check,Firefox 61.0,,2018-10-16 19:32:54,2018-10-16 19:33:04,"10,417s",PASSED
+callTestCase,Firefox 61.0,,2018-10-16 19:32:54,2018-10-16 19:33:02,"8,175s",PASSED
+click,Firefox 61.0,,2018-10-16 19:33:02,2018-10-16 19:33:03,"0,246s",PASSED
+click,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,433s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,038s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,030s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,032s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,034s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,032s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,029s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,041s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,036s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,031s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,045s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:03,"0,042s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:03,2018-10-16 19:33:04,"0,119s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,044s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,057s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,043s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,041s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,056s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,042s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,038s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,057s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,040s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,045s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,044s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,048s",PASSED
+closeBrowser,Firefox 61.0,,2018-10-16 19:33:04,2018-10-16 19:33:04,"0,276s",PASSED

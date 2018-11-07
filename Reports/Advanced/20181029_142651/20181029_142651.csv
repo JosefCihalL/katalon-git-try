@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Advanced,Firefox 61.0,,2018-10-29 14:27:26,2018-10-29 14:29:19,"1m - 53,520s",FAILED
+,,,,,,
+Test Cases/Home page check,Firefox 61.0,,2018-10-29 14:27:26,2018-10-29 14:27:45,"19,302s",FAILED
+callTestCase,Firefox 61.0,,2018-10-29 14:27:27,2018-10-29 14:27:45,"18,791s",FAILED
+,,,,,,
+Test Cases/Login page check,Firefox 61.0,,2018-10-29 14:27:45,2018-10-29 14:28:01,"15,815s",FAILED
+openBrowser,Firefox 61.0,,2018-10-29 14:27:46,2018-10-29 14:27:51,"4,626s",PASSED
+maximizeWindow,Firefox 61.0,,2018-10-29 14:27:51,2018-10-29 14:27:51,"0,214s",PASSED
+verifyElementVisible,Firefox 61.0,,2018-10-29 14:27:51,2018-10-29 14:28:01,"10,457s",FAILED
+,,,,,,
+Test Cases/Payments/Dashboard check,Firefox 61.0,,2018-10-29 14:28:01,2018-10-29 14:28:18,"16,283s",FAILED
+callTestCase,Firefox 61.0,,2018-10-29 14:28:02,2018-10-29 14:28:18,"15,930s",FAILED
+,,,,,,
+Test Cases/Payments/Sundry accounts check,Firefox 61.0,,2018-10-29 14:28:18,2018-10-29 14:28:33,"14,994s",FAILED
+callTestCase,Firefox 61.0,,2018-10-29 14:28:18,2018-10-29 14:28:33,"14,468s",FAILED
+,,,,,,
+Test Cases/Payments/SmartPayment,Firefox 61.0,,2018-10-29 14:28:33,2018-10-29 14:28:49,"16,752s",FAILED
+callTestCase,Firefox 61.0,,2018-10-29 14:28:33,2018-10-29 14:28:49,"15,854s",FAILED
+,,,,,,
+Test Cases/Payments/SmartPayment,Firefox 61.0,,2018-10-29 14:28:49,2018-10-29 14:29:04,"14,874s",FAILED
+callTestCase,Firefox 61.0,,2018-10-29 14:28:49,2018-10-29 14:29:04,"14,843s",FAILED
+,,,,,,
+Test Cases/Payments/SmartPayment,Firefox 61.0,,2018-10-29 14:29:04,2018-10-29 14:29:19,"14,602s",FAILED
+callTestCase,Firefox 61.0,,2018-10-29 14:29:04,2018-10-29 14:29:19,"14,570s",FAILED

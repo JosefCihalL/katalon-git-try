@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API smoke,,,2018-10-24 20:06:36,2018-10-24 20:06:38,"1,700s",ERROR
+,,,,,,
+Test Cases/API/API test,,,2018-10-24 20:06:37,2018-10-24 20:06:37,"0,921s",ERROR
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-10-24 20:06:37,2018-10-24 20:06:37,"0,358s",PASSED
+verifyResponseStatusCode,,,2018-10-24 20:06:37,2018-10-24 20:06:37,"0,004s",PASSED
+,,,,,,
+Test Cases/API/API test,,,2018-10-24 20:06:37,2018-10-24 20:06:38,"0,177s",ERROR
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-10-24 20:06:37,2018-10-24 20:06:38,"0,053s",PASSED
+verifyResponseStatusCode,,,2018-10-24 20:06:38,2018-10-24 20:06:38,"0,001s",PASSED

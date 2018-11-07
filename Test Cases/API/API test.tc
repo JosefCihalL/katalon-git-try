@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6dd25e95-26ca-4180-aba1-109555cc38e8</testCaseGuid>
+   <variable>
+      <defaultValue>'internal-DVK-1-be-a-2025432293.eu-west-1.elb.amazonaws.com/auth/monitoring/ping'</defaultValue>
+      <description></description>
+      <id>f773e175-d5e8-457d-95f6-0fb822bdd5bb</id>
+      <masked>false</masked>
+      <name>URLE</name>
+   </variable>
+   <variable>
+      <defaultValue>'200'</defaultValue>
+      <description></description>
+      <id>98e99fd8-7d42-4496-ae9a-864e9fb76ca0</id>
+      <masked>false</masked>
+      <name>dataResponse</name>
+   </variable>
+</TestCaseEntity>

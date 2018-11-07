@@ -1,0 +1,141 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Advanced,Chrome 70.0.3538.67,,2018-10-24 15:27:11,2018-10-24 15:29:22,"2m - 11,286s",FAILED
+,,,,,,
+Test Cases/Home page check,Chrome 70.0.3538.67,,2018-10-24 15:27:11,2018-10-24 15:27:28,"16,043s",PASSED
+callTestCase,Chrome 70.0.3538.67,,2018-10-24 15:27:12,2018-10-24 15:27:26,"13,791s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:26,2018-10-24 15:27:26,"0,098s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:26,2018-10-24 15:27:26,"0,060s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:26,2018-10-24 15:27:26,"0,097s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:26,2018-10-24 15:27:26,"0,103s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:26,2018-10-24 15:27:26,"0,074s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:26,2018-10-24 15:27:26,"0,089s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:27:26,2018-10-24 15:27:27,"0,149s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:27,"0,084s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:27,"0,097s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:27,"0,077s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:27,"0,072s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:27,"0,056s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:27,"0,095s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:27,"0,067s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:27,"0,070s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:27,"0,099s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:27,"0,089s",PASSED
+closeBrowser,Chrome 70.0.3538.67,,2018-10-24 15:27:27,2018-10-24 15:27:28,"0,144s",PASSED
+,,,,,,
+Test Cases/Login page check,Chrome 70.0.3538.67,,2018-10-24 15:27:28,2018-10-24 15:27:40,"12,908s",PASSED
+openBrowser,Chrome 70.0.3538.67,,2018-10-24 15:27:28,2018-10-24 15:27:37,"8,779s",PASSED
+maximizeWindow,Chrome 70.0.3538.67,,2018-10-24 15:27:37,2018-10-24 15:27:37,"0,311s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:37,2018-10-24 15:27:39,"1,929s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:39,2018-10-24 15:27:39,"0,338s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:39,2018-10-24 15:27:40,"0,279s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:40,2018-10-24 15:27:40,"0,103s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:40,2018-10-24 15:27:40,"0,128s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:40,2018-10-24 15:27:40,"0,073s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:40,2018-10-24 15:27:40,"0,065s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:40,2018-10-24 15:27:40,"0,058s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:40,2018-10-24 15:27:40,"0,064s",PASSED
+closeBrowser,Chrome 70.0.3538.67,,2018-10-24 15:27:40,2018-10-24 15:27:40,"0,259s",PASSED
+,,,,,,
+Test Cases/Payments/Dashboard check,Chrome 70.0.3538.67,,2018-10-24 15:27:40,2018-10-24 15:27:52,"11,288s",PASSED
+callTestCase,Chrome 70.0.3538.67,,2018-10-24 15:27:41,2018-10-24 15:27:50,"9,185s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:27:50,2018-10-24 15:27:50,"0,112s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:27:50,2018-10-24 15:27:50,"0,190s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:50,2018-10-24 15:27:51,"0,058s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,072s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,044s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,043s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,042s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,044s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,051s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,046s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,053s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,047s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,039s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,049s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,040s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,041s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,042s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,042s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,040s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,042s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,041s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,041s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,040s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:51,"0,041s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:51,2018-10-24 15:27:52,"0,040s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:27:52,2018-10-24 15:27:52,"0,047s",PASSED
+closeBrowser,Chrome 70.0.3538.67,,2018-10-24 15:27:52,2018-10-24 15:27:52,"0,162s",PASSED
+,,,,,,
+Test Cases/Payments/Sundry accounts check,Chrome 70.0.3538.67,,2018-10-24 15:27:52,2018-10-24 15:28:02,"10,631s",PASSED
+callTestCase,Chrome 70.0.3538.67,,2018-10-24 15:27:52,2018-10-24 15:28:00,"7,736s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:00,2018-10-24 15:28:00,"0,132s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:00,2018-10-24 15:28:00,"0,223s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:00,2018-10-24 15:28:01,"0,287s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:01,2018-10-24 15:28:01,"0,066s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:01,2018-10-24 15:28:01,"0,054s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:01,2018-10-24 15:28:01,"0,046s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:01,2018-10-24 15:28:01,"0,047s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:01,2018-10-24 15:28:01,"0,043s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:01,2018-10-24 15:28:01,"0,032s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:01,2018-10-24 15:28:01,"0,125s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:01,2018-10-24 15:28:02,"0,578s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,042s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,043s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,040s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,046s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,044s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,058s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,048s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,046s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,044s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,043s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,042s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,051s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,049s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,044s",PASSED
+closeBrowser,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:02,"0,132s",PASSED
+,,,,,,
+Test Cases/Payments/SmartPayment,Chrome 70.0.3538.67,,2018-10-24 15:28:02,2018-10-24 15:28:24,"21,507s",PASSED
+callTestCase,Chrome 70.0.3538.67,,2018-10-24 15:28:03,2018-10-24 15:28:14,"10,946s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:14,2018-10-24 15:28:14,"0,077s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:14,2018-10-24 15:28:14,"0,180s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:28:14,2018-10-24 15:28:15,"0,934s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:28:15,2018-10-24 15:28:16,"0,489s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:28:16,2018-10-24 15:28:16,"0,252s",PASSED
+delay,Chrome 70.0.3538.67,,2018-10-24 15:28:16,2018-10-24 15:28:17,"1,012s",PASSED
+Statement - CountryStep1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Payments/Sundry accounts/External payment/Select_Bank account coutry)),Chrome 70.0.3538.67,,2018-10-24 15:28:17,2018-10-24 15:28:17,"0,301s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:17,2018-10-24 15:28:17,"0,230s",PASSED
+"Statement - If (CountryStep1 == ""Czech Republic"")",Chrome 70.0.3538.67,,2018-10-24 15:28:17,2018-10-24 15:28:17,"0,001s",PASSED
+"Statement - Else If (CountryStep1 == ""Bulgaria"")",Chrome 70.0.3538.67,,2018-10-24 15:28:17,2018-10-24 15:28:17,"0,001s",PASSED
+Statement - Else,Chrome 70.0.3538.67,,2018-10-24 15:28:17,2018-10-24 15:28:23,"5,535s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:23,2018-10-24 15:28:23,"0,145s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:23,2018-10-24 15:28:24,"0,628s",PASSED
+verifyElementVisible,Chrome 70.0.3538.67,,2018-10-24 15:28:24,2018-10-24 15:28:24,"0,090s",PASSED
+,,,,,,
+Test Cases/Payments/SmartPayment,Chrome 70.0.3538.67,,2018-10-24 15:28:24,2018-10-24 15:28:52,"27,626s",FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-24 15:28:24,2018-10-24 15:28:35,"11,101s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:35,2018-10-24 15:28:35,"0,097s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:35,2018-10-24 15:28:35,"0,238s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:28:35,2018-10-24 15:28:37,"1,590s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:28:37,2018-10-24 15:28:38,"0,540s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:28:38,2018-10-24 15:28:38,"0,291s",PASSED
+delay,Chrome 70.0.3538.67,,2018-10-24 15:28:38,2018-10-24 15:28:39,"1,009s",PASSED
+Statement - CountryStep1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Payments/Sundry accounts/External payment/Select_Bank account coutry)),Chrome 70.0.3538.67,,2018-10-24 15:28:39,2018-10-24 15:28:39,"0,098s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:28:39,2018-10-24 15:28:39,"0,158s",PASSED
+"Statement - If (CountryStep1 == ""Czech Republic"")",Chrome 70.0.3538.67,,2018-10-24 15:28:39,2018-10-24 15:28:39,"0,001s",PASSED
+"Statement - Else If (CountryStep1 == ""Bulgaria"")",Chrome 70.0.3538.67,,2018-10-24 15:28:39,2018-10-24 15:28:39,"0,001s",PASSED
+Statement - Else,Chrome 70.0.3538.67,,2018-10-24 15:28:39,2018-10-24 15:28:52,"12,419s",FAILED
+,,,,,,
+Test Cases/Payments/SmartPayment,Chrome 70.0.3538.67,,2018-10-24 15:28:52,2018-10-24 15:29:22,"30,433s",FAILED
+callTestCase,Chrome 70.0.3538.67,,2018-10-24 15:28:52,2018-10-24 15:29:06,"14,459s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:29:06,2018-10-24 15:29:06,"0,069s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:29:06,2018-10-24 15:29:06,"0,176s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:29:06,2018-10-24 15:29:07,"1,048s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:29:07,2018-10-24 15:29:08,"0,464s",PASSED
+setText,Chrome 70.0.3538.67,,2018-10-24 15:29:08,2018-10-24 15:29:08,"0,224s",PASSED
+delay,Chrome 70.0.3538.67,,2018-10-24 15:29:08,2018-10-24 15:29:09,"1,009s",PASSED
+Statement - CountryStep1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Payments/Sundry accounts/External payment/Select_Bank account coutry)),Chrome 70.0.3538.67,,2018-10-24 15:29:09,2018-10-24 15:29:09,"0,139s",PASSED
+click,Chrome 70.0.3538.67,,2018-10-24 15:29:09,2018-10-24 15:29:09,"0,228s",PASSED
+"Statement - If (CountryStep1 == ""Czech Republic"")",Chrome 70.0.3538.67,,2018-10-24 15:29:09,2018-10-24 15:29:09,"0,001s",PASSED
+"Statement - Else If (CountryStep1 == ""Bulgaria"")",Chrome 70.0.3538.67,,2018-10-24 15:29:09,2018-10-24 15:29:09,"0,001s",PASSED
+Statement - Else,Chrome 70.0.3538.67,,2018-10-24 15:29:09,2018-10-24 15:29:22,"12,567s",FAILED

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login page check</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd503a51-deb7-4a40-9206-c618a568737e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e874b87-1ac8-4e63-8409-1475085c5f4f</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>

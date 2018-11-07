@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Advanced" time="84" tests="1" failures="2" errors="0">
+   <testsuite name="Advanced" tests="1" failures="2" errors="0" time="84" timestamp="2018-10-24 15:44:07" hostname="josefcihal - 192.168.0.105" id="Test Suites/Advanced">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/josefcihal/Katalon Studio/Leveris POC/Reports/Advanced/20181024_154351"/>
+         <property name="logFiles" value="/Users/josefcihal/Katalon Studio/Leveris POC/Reports/Advanced/20181024_154351/execution0.log"/>
+         <property name="attachments" value="/Users/josefcihal/Katalon Studio/Leveris POC/Reports/Advanced/20181024_154351/1540388703368.png, /Users/josefcihal/Katalon Studio/Leveris POC/Reports/Advanced/20181024_154351/1540388703866.png, /Users/josefcihal/Katalon Studio/Leveris POC/Reports/Advanced/20181024_154351/1540388729578.png, /Users/josefcihal/Katalon Studio/Leveris POC/Reports/Advanced/20181024_154351/1540388730703.png"/>
+         <property name="hostName" value="josefcihal - 192.168.0.105"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.67"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="b9359e2f9d37cc562dc76806f0fd1265"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Payments/SmartPayment" classname="Test Cases/Payments/SmartPayment" status="PASSED">
+         <system-out><![CDATA[2018-10-24 15:44:07 - [TEST_CASE][PASSED] - Test Cases/Payments/SmartPayment: Test Cases/Payments/SmartPayment
+
+2018-10-24 15:44:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Payments/Create new sundry account' successfully
+
+2018-10-24 15:44:09 - [TEST_CASE][PASSED] - Test Cases/Payments/Create new sundry account: Test Cases/Payments/Create new sundry account
+
+2018-10-24 15:44:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-10-24 15:44:09 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-24 15:44:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dv0.deltecdev.com/operator'
+
+2018-10-24 15:44:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dv0.deltecdev.com/operator'
+
+2018-10-24 15:44:19 - [TEST_STEP][PASSED] - setText: Text 'john.doe@leveris.com' is set on object 'Object Repository/Login page/Input_Email'
+
+2018-10-24 15:44:22 - [MESSAGE][PASSED] - Text 'john.doe@leveris.com' is set on object 'Object Repository/Login page/Input_Email'
+
+2018-10-24 15:44:22 - [TEST_STEP][PASSED] - setText: Text 'Password1122' is set on object 'Object Repository/Login page/Input_Password'
+
+2018-10-24 15:44:22 - [MESSAGE][PASSED] - Text 'Password1122' is set on object 'Object Repository/Login page/Input_Password'
+
+2018-10-24 15:44:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login page/Button_Log in' is clicked on
+
+2018-10-24 15:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/Button_Log in' is clicked on
+
+2018-10-24 15:44:23 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Home page/Label_Home' is visible
+
+2018-10-24 15:44:24 - [MESSAGE][PASSED] - Object 'Object Repository/Home page/Label_Home' is visible
+
+2018-10-24 15:44:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-10-24 15:44:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home page/Button_Home' is clicked on
+
+2018-10-24 15:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Button_Home' is clicked on
+
+2018-10-24 15:44:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home page/Dropdown_Payments' is clicked on
+
+2018-10-24 15:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Dropdown_Payments' is clicked on
+
+2018-10-24 15:44:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Guidepost_Sundry accounts' is clicked on
+
+2018-10-24 15:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Guidepost_Sundry accounts' is clicked on
+
+2018-10-24 15:44:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/Button_Sundry accounts - Create new account' is clicked on
+
+2018-10-24 15:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/Button_Sundry accounts - Create new account' is clicked on
+
+2018-10-24 15:44:25 - [TEST_STEP][PASSED] - Statement - ts = java.lang.System.currentTimeMillis() / 1000: null
+
+2018-10-24 15:44:25 - [TEST_STEP][PASSED] - Statement - tsAsString = ts.toString(): null
+
+2018-10-24 15:44:25 - [TEST_STEP][PASSED] - setText: Text 'QAA test Katalon - 1540388665' is set on object 'Object Repository/Payments/Sundry accounts/Create new account/Input_Account name'
+
+2018-10-24 15:44:28 - [MESSAGE][PASSED] - Text 'QAA test Katalon - 1540388665' is set on object 'Object Repository/Payments/Sundry accounts/Create new account/Input_Account name'
+
+2018-10-24 15:44:28 - [TEST_STEP][PASSED] - Statement - AccountName = "QAA test Katalon - " + tsAsString: null
+
+2018-10-24 15:44:28 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Liability' are selected in object 'Object Repository/Payments/Sundry accounts/Create new account/Select_Type (asset or liability account)' 
+
+2018-10-24 15:44:28 - [MESSAGE][PASSED] - All options with value 'Liability' are selected in object 'Object Repository/Payments/Sundry accounts/Create new account/Select_Type (asset or liability account)' 
+
+2018-10-24 15:44:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/Create new account/Label_Check balance' is clicked on
+
+2018-10-24 15:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/Create new account/Label_Check balance' is clicked on
+
+2018-10-24 15:44:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/Create new account/Button_Create new account' is clicked on
+
+2018-10-24 15:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/Create new account/Button_Create new account' is clicked on
+
+2018-10-24 15:44:28 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Account status' are matched.
+
+2018-10-24 15:44:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Account status' are matched.
+
+2018-10-24 15:44:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Check balance' are matched.
+
+2018-10-24 15:44:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Check balance' are matched.
+
+2018-10-24 15:44:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Type (asset or liability account)' are matched.
+
+2018-10-24 15:44:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Type (asset or liability account)' are matched.
+
+2018-10-24 15:44:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Payments/Create new sundry account' successfully
+
+2018-10-24 15:44:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Internal accounts/Button_Actions' is clicked on
+
+2018-10-24 15:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Internal accounts/Button_Actions' is clicked on
+
+2018-10-24 15:44:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Internal accounts/Button_External payment' is clicked on
+
+2018-10-24 15:44:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Internal accounts/Button_External payment' is clicked on
+
+2018-10-24 15:44:29 - [TEST_STEP][PASSED] - setText: Text 'BE19140001517218' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_IBAN  Account number'
+
+2018-10-24 15:44:30 - [MESSAGE][PASSED] - Text 'BE19140001517218' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_IBAN  Account number'
+
+2018-10-24 15:44:30 - [TEST_STEP][PASSED] - setText: Text 'ABNABEBRXXX' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Bank code (BIC sort code or ABA)'
+
+2018-10-24 15:44:30 - [MESSAGE][PASSED] - Text 'ABNABEBRXXX' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Bank code (BIC sort code or ABA)'
+
+2018-10-24 15:44:30 - [TEST_STEP][PASSED] - setText: Text '2.01' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Amount and currency'
+
+2018-10-24 15:44:31 - [MESSAGE][PASSED] - Text '2.01' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Amount and currency'
+
+2018-10-24 15:44:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-24 15:44:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-24 15:44:32 - [TEST_STEP][PASSED] - Statement - CountryStep1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Payments/Sundry accounts/External payment/Select_Bank account coutry)): Text of object 'Object Repository/Payments/Sundry accounts/External payment/Select_Bank account coutry' is: '(Select)
+Austria
+Belgium
+Bulgaria
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Gibraltar
+Greece
+Hungary
+Iceland
+Ireland
+Italy
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Malta
+Monaco
+Netherlands
+Norway
+Poland
+Portugal
+Romania
+San Marino
+Slovakia
+Slovenia
+Spain
+Sweden
+Switzerland
+United Kingdom'
+
+2018-10-24 15:44:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payments/Sundry accounts/External payment/Select_Bank account coutry' is: '(Select)
+Austria
+Belgium
+Bulgaria
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Gibraltar
+Greece
+Hungary
+Iceland
+Ireland
+Italy
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Malta
+Monaco
+Netherlands
+Norway
+Poland
+Portugal
+Romania
+San Marino
+Slovakia
+Slovenia
+Spain
+Sweden
+Switzerland
+United Kingdom'
+
+2018-10-24 15:44:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/External payment/Button_Next step' is clicked on
+
+2018-10-24 15:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/External payment/Button_Next step' is clicked on
+
+2018-10-24 15:44:32 - [TEST_STEP][PASSED] - Statement - If (CountryStep1 == "Czech Republic"): null
+
+2018-10-24 15:44:32 - [TEST_STEP][PASSED] - Statement - Else If (CountryStep1 == "Bulgaria"): null
+
+2018-10-24 15:44:32 - [TEST_STEP][PASSED] - Statement - Else: Text 'Some Note' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Operator note'
+
+2018-10-24 15:44:32 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Beneficiary name' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Beneficiary name' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Beneficiary name' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Beneficiary name' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Address of beneficiary' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Address of beneficiary' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_City' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_City' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_City' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_City' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Post code' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Post code' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Post code' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Post code' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_State  province' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_State  province' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_State  province' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_State  province' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Country' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Country' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Remittance info' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Remittance info' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Remittance info' is visible
+
+2018-10-24 15:44:33 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Remittance info' is visible
+
+2018-10-24 15:44:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Operator note' is visible
+
+2018-10-24 15:44:34 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Operator note' is visible
+
+2018-10-24 15:44:34 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Operator note' is visible
+
+2018-10-24 15:44:34 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Operator note' is visible
+
+2018-10-24 15:44:34 - [TEST_STEP][PASSED] - setText: Text 'Tester Testerov' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Beneficiary name'
+
+2018-10-24 15:44:34 - [MESSAGE][PASSED] - Text 'Tester Testerov' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Beneficiary name'
+
+2018-10-24 15:44:34 - [TEST_STEP][PASSED] - setText: Text 'Testerov St.' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Address of beneficiary'
+
+2018-10-24 15:44:35 - [MESSAGE][PASSED] - Text 'Testerov St.' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Address of beneficiary'
+
+2018-10-24 15:44:35 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Guam' are selected in object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' 
+
+2018-10-24 15:44:35 - [MESSAGE][PASSED] - All options with label 'Guam' are selected in object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' 
+
+2018-10-24 15:44:35 - [TEST_STEP][PASSED] - setText: Text 'Test City' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_City'
+
+2018-10-24 15:44:35 - [MESSAGE][PASSED] - Text 'Test City' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_City'
+
+2018-10-24 15:44:35 - [TEST_STEP][PASSED] - setText: Text 'XX666XX' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Post code'
+
+2018-10-24 15:44:36 - [MESSAGE][PASSED] - Text 'XX666XX' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Post code'
+
+2018-10-24 15:44:36 - [TEST_STEP][PASSED] - setText: Text 'Test hell' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_State  province'
+
+2018-10-24 15:44:36 - [MESSAGE][PASSED] - Text 'Test hell' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_State  province'
+
+2018-10-24 15:44:36 - [TEST_STEP][PASSED] - setText: Text 'Some info' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Remittance info'
+
+2018-10-24 15:44:37 - [MESSAGE][PASSED] - Text 'Some info' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Remittance info'
+
+2018-10-24 15:44:37 - [TEST_STEP][PASSED] - setText: Text 'Some Note' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Operator note'
+
+2018-10-24 15:44:37 - [MESSAGE][PASSED] - Text 'Some Note' is set on object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Operator note'
+
+2018-10-24 15:44:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Button_Done' is clicked on
+
+2018-10-24 15:44:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Button_Done' is clicked on
+
+2018-10-24 15:44:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/External payment/Approve order/Button_Approve order' is clicked on
+
+2018-10-24 15:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/External payment/Approve order/Button_Approve order' is clicked on
+
+2018-10-24 15:44:38 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/Approve order/Label_Payment detail' is visible
+
+2018-10-24 15:44:38 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/Approve order/Label_Payment detail' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/SmartPayment" classname="Test Cases/Payments/SmartPayment" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' located by 'By.xpath: //label[@class = 'input__label' and (text() = 'Address of beneficiary' or . = 'Address of beneficiary')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Script1539716134718.run(Script1539716134718.groovy:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540388641545.run(TempTestSuite1540388641545.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-24 15:44:38 - [TEST_CASE][FAILED] - Test Cases/Payments/SmartPayment: Test Cases/Payments/SmartPayment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' located by 'By.xpath: //label[@class = 'input__label' and (text() = 'Address of beneficiary' or . = 'Address of beneficiary')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Script1539716134718.run(Script1539716134718.groovy:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540388641545.run(TempTestSuite1540388641545.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-24 15:44:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Payments/Create new sundry account' successfully
+
+2018-10-24 15:44:38 - [TEST_CASE][PASSED] - Test Cases/Payments/Create new sundry account: Test Cases/Payments/Create new sundry account
+
+2018-10-24 15:44:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-10-24 15:44:38 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-24 15:44:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dv0.deltecdev.com/operator'
+
+2018-10-24 15:44:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-24 15:44:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dv0.deltecdev.com/operator'
+
+2018-10-24 15:44:42 - [TEST_STEP][PASSED] - setText: Text 'john.doe@leveris.com' is set on object 'Object Repository/Login page/Input_Email'
+
+2018-10-24 15:44:43 - [MESSAGE][PASSED] - Text 'john.doe@leveris.com' is set on object 'Object Repository/Login page/Input_Email'
+
+2018-10-24 15:44:43 - [TEST_STEP][PASSED] - setText: Text 'Password1122' is set on object 'Object Repository/Login page/Input_Password'
+
+2018-10-24 15:44:44 - [MESSAGE][PASSED] - Text 'Password1122' is set on object 'Object Repository/Login page/Input_Password'
+
+2018-10-24 15:44:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login page/Button_Log in' is clicked on
+
+2018-10-24 15:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/Button_Log in' is clicked on
+
+2018-10-24 15:44:44 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Home page/Label_Home' is visible
+
+2018-10-24 15:44:45 - [MESSAGE][PASSED] - Object 'Object Repository/Home page/Label_Home' is visible
+
+2018-10-24 15:44:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-10-24 15:44:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home page/Button_Home' is clicked on
+
+2018-10-24 15:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Button_Home' is clicked on
+
+2018-10-24 15:44:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home page/Dropdown_Payments' is clicked on
+
+2018-10-24 15:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Dropdown_Payments' is clicked on
+
+2018-10-24 15:44:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Guidepost_Sundry accounts' is clicked on
+
+2018-10-24 15:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Guidepost_Sundry accounts' is clicked on
+
+2018-10-24 15:44:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/Button_Sundry accounts - Create new account' is clicked on
+
+2018-10-24 15:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/Button_Sundry accounts - Create new account' is clicked on
+
+2018-10-24 15:44:46 - [TEST_STEP][PASSED] - Statement - ts = java.lang.System.currentTimeMillis() / 1000: null
+
+2018-10-24 15:44:46 - [TEST_STEP][PASSED] - Statement - tsAsString = ts.toString(): null
+
+2018-10-24 15:44:46 - [TEST_STEP][PASSED] - setText: Text 'QAA test Katalon - 1540388686' is set on object 'Object Repository/Payments/Sundry accounts/Create new account/Input_Account name'
+
+2018-10-24 15:44:47 - [MESSAGE][PASSED] - Text 'QAA test Katalon - 1540388686' is set on object 'Object Repository/Payments/Sundry accounts/Create new account/Input_Account name'
+
+2018-10-24 15:44:47 - [TEST_STEP][PASSED] - Statement - AccountName = "QAA test Katalon - " + tsAsString: null
+
+2018-10-24 15:44:47 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Liability' are selected in object 'Object Repository/Payments/Sundry accounts/Create new account/Select_Type (asset or liability account)' 
+
+2018-10-24 15:44:47 - [MESSAGE][PASSED] - All options with value 'Liability' are selected in object 'Object Repository/Payments/Sundry accounts/Create new account/Select_Type (asset or liability account)' 
+
+2018-10-24 15:44:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/Create new account/Label_Check balance' is clicked on
+
+2018-10-24 15:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/Create new account/Label_Check balance' is clicked on
+
+2018-10-24 15:44:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/Create new account/Button_Create new account' is clicked on
+
+2018-10-24 15:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/Create new account/Button_Create new account' is clicked on
+
+2018-10-24 15:44:47 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Account status' are matched.
+
+2018-10-24 15:44:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Account status' are matched.
+
+2018-10-24 15:44:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Check balance' are matched.
+
+2018-10-24 15:44:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Check balance' are matched.
+
+2018-10-24 15:44:48 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Type (asset or liability account)' are matched.
+
+2018-10-24 15:44:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Type (asset or liability account)' are matched.
+
+2018-10-24 15:44:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Payments/Create new sundry account' successfully
+
+2018-10-24 15:44:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Internal accounts/Button_Actions' is clicked on
+
+2018-10-24 15:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Internal accounts/Button_Actions' is clicked on
+
+2018-10-24 15:44:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Internal accounts/Button_External payment' is clicked on
+
+2018-10-24 15:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Internal accounts/Button_External payment' is clicked on
+
+2018-10-24 15:44:48 - [TEST_STEP][PASSED] - setText: Text 'CZ8372746198380075273635' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_IBAN  Account number'
+
+2018-10-24 15:44:50 - [MESSAGE][PASSED] - Text 'CZ8372746198380075273635' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_IBAN  Account number'
+
+2018-10-24 15:44:50 - [TEST_STEP][PASSED] - setText: Text 'CNBACZPP' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Bank code (BIC sort code or ABA)'
+
+2018-10-24 15:44:50 - [MESSAGE][PASSED] - Text 'CNBACZPP' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Bank code (BIC sort code or ABA)'
+
+2018-10-24 15:44:50 - [TEST_STEP][PASSED] - setText: Text '2.02' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Amount and currency'
+
+2018-10-24 15:44:50 - [MESSAGE][PASSED] - Text '2.02' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Amount and currency'
+
+2018-10-24 15:44:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-24 15:44:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-24 15:44:51 - [TEST_STEP][PASSED] - Statement - CountryStep1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Payments/Sundry accounts/External payment/Select_Bank account coutry)): Text of object 'Object Repository/Payments/Sundry accounts/External payment/Select_Bank account coutry' is: '(Select)
+Austria
+Belgium
+Bulgaria
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Gibraltar
+Greece
+Hungary
+Iceland
+Ireland
+Italy
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Malta
+Monaco
+Netherlands
+Norway
+Poland
+Portugal
+Romania
+San Marino
+Slovakia
+Slovenia
+Spain
+Sweden
+Switzerland
+United Kingdom'
+
+2018-10-24 15:44:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payments/Sundry accounts/External payment/Select_Bank account coutry' is: '(Select)
+Austria
+Belgium
+Bulgaria
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Gibraltar
+Greece
+Hungary
+Iceland
+Ireland
+Italy
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Malta
+Monaco
+Netherlands
+Norway
+Poland
+Portugal
+Romania
+San Marino
+Slovakia
+Slovenia
+Spain
+Sweden
+Switzerland
+United Kingdom'
+
+2018-10-24 15:44:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/External payment/Button_Next step' is clicked on
+
+2018-10-24 15:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/External payment/Button_Next step' is clicked on
+
+2018-10-24 15:44:52 - [TEST_STEP][PASSED] - Statement - If (CountryStep1 == "Czech Republic"): null
+
+2018-10-24 15:44:52 - [TEST_STEP][PASSED] - Statement - Else If (CountryStep1 == "Bulgaria"): null
+
+2018-10-24 15:44:52 - [TEST_STEP][FAILED] - Statement - Else: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' located by 'By.xpath: //label[@class = 'input__label' and (text() = 'Address of beneficiary' or . = 'Address of beneficiary')]' not found)
+
+2018-10-24 15:44:52 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Beneficiary name' is visible
+
+2018-10-24 15:44:52 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Beneficiary name' is visible
+
+2018-10-24 15:44:52 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Beneficiary name' is visible
+
+2018-10-24 15:44:52 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Beneficiary name' is visible
+
+2018-10-24 15:44:52 - [TEST_STEP][FAILED] - verifyElementVisible: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' located by 'By.xpath: //label[@class = 'input__label' and (text() = 'Address of beneficiary' or . = 'Address of beneficiary')]' not found)
+
+2018-10-24 15:45:03 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' located by 'By.xpath: //label[@class = 'input__label' and (text() = 'Address of beneficiary' or . = 'Address of beneficiary')]' not found
+[[ATTACHMENT|/Users/josefcihal/Katalon Studio/Leveris POC/Reports/Advanced/20181024_154351/1540388703368.png]]
+
+2018-10-24 15:45:04 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' located by 'By.xpath: //label[@class = 'input__label' and (text() = 'Address of beneficiary' or . = 'Address of beneficiary')]' not found)
+[[ATTACHMENT|/Users/josefcihal/Katalon Studio/Leveris POC/Reports/Advanced/20181024_154351/1540388703866.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-24 15:44:38 - [TEST_CASE][FAILED] - Test Cases/Payments/SmartPayment: Test Cases/Payments/SmartPayment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' located by 'By.xpath: //label[@class = 'input__label' and (text() = 'Address of beneficiary' or . = 'Address of beneficiary')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Script1539716134718.run(Script1539716134718.groovy:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540388641545.run(TempTestSuite1540388641545.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Payments/SmartPayment" classname="Test Cases/Payments/SmartPayment" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' located by 'By.xpath: //select[@class = 'select__input select_benCountry']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Script1539716134718.run(Script1539716134718.groovy:150)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540388641545.run(TempTestSuite1540388641545.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-10-24 15:45:04 - [TEST_CASE][FAILED] - Test Cases/Payments/SmartPayment: Test Cases/Payments/SmartPayment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' located by 'By.xpath: //select[@class = 'select__input select_benCountry']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Script1539716134718.run(Script1539716134718.groovy:150)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540388641545.run(TempTestSuite1540388641545.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-10-24 15:45:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Payments/Create new sundry account' successfully
+
+2018-10-24 15:45:04 - [TEST_CASE][PASSED] - Test Cases/Payments/Create new sundry account: Test Cases/Payments/Create new sundry account
+
+2018-10-24 15:45:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-10-24 15:45:04 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-10-24 15:45:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://dv0.deltecdev.com/operator'
+
+2018-10-24 15:45:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-10-24 15:45:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://dv0.deltecdev.com/operator'
+
+2018-10-24 15:45:08 - [TEST_STEP][PASSED] - setText: Text 'john.doe@leveris.com' is set on object 'Object Repository/Login page/Input_Email'
+
+2018-10-24 15:45:10 - [MESSAGE][PASSED] - Text 'john.doe@leveris.com' is set on object 'Object Repository/Login page/Input_Email'
+
+2018-10-24 15:45:10 - [TEST_STEP][PASSED] - setText: Text 'Password1122' is set on object 'Object Repository/Login page/Input_Password'
+
+2018-10-24 15:45:10 - [MESSAGE][PASSED] - Text 'Password1122' is set on object 'Object Repository/Login page/Input_Password'
+
+2018-10-24 15:45:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login page/Button_Log in' is clicked on
+
+2018-10-24 15:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login page/Button_Log in' is clicked on
+
+2018-10-24 15:45:10 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Home page/Label_Home' is visible
+
+2018-10-24 15:45:11 - [MESSAGE][PASSED] - Object 'Object Repository/Home page/Label_Home' is visible
+
+2018-10-24 15:45:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-10-24 15:45:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home page/Button_Home' is clicked on
+
+2018-10-24 15:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Button_Home' is clicked on
+
+2018-10-24 15:45:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Home page/Dropdown_Payments' is clicked on
+
+2018-10-24 15:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Home page/Dropdown_Payments' is clicked on
+
+2018-10-24 15:45:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Guidepost_Sundry accounts' is clicked on
+
+2018-10-24 15:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Guidepost_Sundry accounts' is clicked on
+
+2018-10-24 15:45:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/Button_Sundry accounts - Create new account' is clicked on
+
+2018-10-24 15:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/Button_Sundry accounts - Create new account' is clicked on
+
+2018-10-24 15:45:12 - [TEST_STEP][PASSED] - Statement - ts = java.lang.System.currentTimeMillis() / 1000: null
+
+2018-10-24 15:45:12 - [TEST_STEP][PASSED] - Statement - tsAsString = ts.toString(): null
+
+2018-10-24 15:45:12 - [TEST_STEP][PASSED] - setText: Text 'QAA test Katalon - 1540388712' is set on object 'Object Repository/Payments/Sundry accounts/Create new account/Input_Account name'
+
+2018-10-24 15:45:13 - [MESSAGE][PASSED] - Text 'QAA test Katalon - 1540388712' is set on object 'Object Repository/Payments/Sundry accounts/Create new account/Input_Account name'
+
+2018-10-24 15:45:13 - [TEST_STEP][PASSED] - Statement - AccountName = "QAA test Katalon - " + tsAsString: null
+
+2018-10-24 15:45:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Liability' are selected in object 'Object Repository/Payments/Sundry accounts/Create new account/Select_Type (asset or liability account)' 
+
+2018-10-24 15:45:13 - [MESSAGE][PASSED] - All options with value 'Liability' are selected in object 'Object Repository/Payments/Sundry accounts/Create new account/Select_Type (asset or liability account)' 
+
+2018-10-24 15:45:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/Create new account/Label_Check balance' is clicked on
+
+2018-10-24 15:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/Create new account/Label_Check balance' is clicked on
+
+2018-10-24 15:45:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/Create new account/Button_Create new account' is clicked on
+
+2018-10-24 15:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/Create new account/Button_Create new account' is clicked on
+
+2018-10-24 15:45:13 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Account status' are matched.
+
+2018-10-24 15:45:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Account status' are matched.
+
+2018-10-24 15:45:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Check balance' are matched.
+
+2018-10-24 15:45:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Check balance' are matched.
+
+2018-10-24 15:45:14 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Type (asset or liability account)' are matched.
+
+2018-10-24 15:45:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Payments/Internal accounts/Value_Type (asset or liability account)' are matched.
+
+2018-10-24 15:45:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Payments/Create new sundry account' successfully
+
+2018-10-24 15:45:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Internal accounts/Button_Actions' is clicked on
+
+2018-10-24 15:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Internal accounts/Button_Actions' is clicked on
+
+2018-10-24 15:45:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Internal accounts/Button_External payment' is clicked on
+
+2018-10-24 15:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Internal accounts/Button_External payment' is clicked on
+
+2018-10-24 15:45:14 - [TEST_STEP][PASSED] - setText: Text 'BG61CVZB28171229454214' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_IBAN  Account number'
+
+2018-10-24 15:45:15 - [MESSAGE][PASSED] - Text 'BG61CVZB28171229454214' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_IBAN  Account number'
+
+2018-10-24 15:45:15 - [TEST_STEP][PASSED] - setText: Text 'CITIBGSFXXX' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Bank code (BIC sort code or ABA)'
+
+2018-10-24 15:45:16 - [MESSAGE][PASSED] - Text 'CITIBGSFXXX' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Bank code (BIC sort code or ABA)'
+
+2018-10-24 15:45:16 - [TEST_STEP][PASSED] - setText: Text '2.03' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Amount and currency'
+
+2018-10-24 15:45:16 - [MESSAGE][PASSED] - Text '2.03' is set on object 'Object Repository/Payments/Sundry accounts/External payment/Input_Amount and currency'
+
+2018-10-24 15:45:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-10-24 15:45:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-24 15:45:17 - [TEST_STEP][PASSED] - Statement - CountryStep1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Payments/Sundry accounts/External payment/Select_Bank account coutry)): Text of object 'Object Repository/Payments/Sundry accounts/External payment/Select_Bank account coutry' is: '(Select)
+Austria
+Belgium
+Bulgaria
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Gibraltar
+Greece
+Hungary
+Iceland
+Ireland
+Italy
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Malta
+Monaco
+Netherlands
+Norway
+Poland
+Portugal
+Romania
+San Marino
+Slovakia
+Slovenia
+Spain
+Sweden
+Switzerland
+United Kingdom'
+
+2018-10-24 15:45:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Payments/Sundry accounts/External payment/Select_Bank account coutry' is: '(Select)
+Austria
+Belgium
+Bulgaria
+Croatia
+Cyprus
+Czech Republic
+Denmark
+Estonia
+Finland
+France
+Germany
+Gibraltar
+Greece
+Hungary
+Iceland
+Ireland
+Italy
+Latvia
+Liechtenstein
+Lithuania
+Luxembourg
+Malta
+Monaco
+Netherlands
+Norway
+Poland
+Portugal
+Romania
+San Marino
+Slovakia
+Slovenia
+Spain
+Sweden
+Switzerland
+United Kingdom'
+
+2018-10-24 15:45:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Payments/Sundry accounts/External payment/Button_Next step' is clicked on
+
+2018-10-24 15:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Payments/Sundry accounts/External payment/Button_Next step' is clicked on
+
+2018-10-24 15:45:17 - [TEST_STEP][PASSED] - Statement - If (CountryStep1 == "Czech Republic"): null
+
+2018-10-24 15:45:17 - [TEST_STEP][PASSED] - Statement - Else If (CountryStep1 == "Bulgaria"): null
+
+2018-10-24 15:45:17 - [TEST_STEP][FAILED] - Statement - Else: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' located by 'By.xpath: //select[@class = 'select__input select_benCountry']' not found)
+
+2018-10-24 15:45:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Beneficiary name' is visible
+
+2018-10-24 15:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Beneficiary name' is visible
+
+2018-10-24 15:45:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Beneficiary name' is visible
+
+2018-10-24 15:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Beneficiary name' is visible
+
+2018-10-24 15:45:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible
+
+2018-10-24 15:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible
+
+2018-10-24 15:45:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Address of beneficiary' is visible
+
+2018-10-24 15:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Address of beneficiary' is visible
+
+2018-10-24 15:45:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_City' is visible
+
+2018-10-24 15:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_City' is visible
+
+2018-10-24 15:45:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_City' is visible
+
+2018-10-24 15:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_City' is visible
+
+2018-10-24 15:45:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Post code' is visible
+
+2018-10-24 15:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Post code' is visible
+
+2018-10-24 15:45:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Post code' is visible
+
+2018-10-24 15:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_Post code' is visible
+
+2018-10-24 15:45:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_State  province' is visible
+
+2018-10-24 15:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_State  province' is visible
+
+2018-10-24 15:45:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_State  province' is visible
+
+2018-10-24 15:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Input_State  province' is visible
+
+2018-10-24 15:45:18 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Country' is visible
+
+2018-10-24 15:45:19 - [MESSAGE][PASSED] - Object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Country' is visible
+
+2018-10-24 15:45:19 - [TEST_STEP][FAILED] - verifyElementVisible: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' located by 'By.xpath: //select[@class = 'select__input select_benCountry']' not found)
+
+2018-10-24 15:45:30 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' located by 'By.xpath: //select[@class = 'select__input select_benCountry']' not found
+[[ATTACHMENT|/Users/josefcihal/Katalon Studio/Leveris POC/Reports/Advanced/20181024_154351/1540388729578.png]]
+
+2018-10-24 15:45:31 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' located by 'By.xpath: //select[@class = 'select__input select_benCountry']' not found)
+[[ATTACHMENT|/Users/josefcihal/Katalon Studio/Leveris POC/Reports/Advanced/20181024_154351/1540388730703.png]]]]></system-out>
+         <system-err><![CDATA[2018-10-24 15:45:04 - [TEST_CASE][FAILED] - Test Cases/Payments/SmartPayment: Test Cases/Payments/SmartPayment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Select_Country' located by 'By.xpath: //select[@class = 'select__input select_benCountry']' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Script1539716134718.run(Script1539716134718.groovy:150)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540388641545.run(TempTestSuite1540388641545.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-24 15:44:07 - [TEST_SUITE][FAILED] - Advanced: Test Cases/Payments/SmartPayment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' located by 'By.xpath: //label[@class = 'input__label' and (text() = 'Address of beneficiary' or . = 'Address of beneficiary')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Script1539716134718.run(Script1539716134718.groovy:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540388641545.run(TempTestSuite1540388641545.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-10-24 15:44:07 - [TEST_SUITE][FAILED] - Advanced: Test Cases/Payments/SmartPayment FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' is visible (Root cause: Web element with id: 'Object Repository/Payments/Sundry accounts/External payment/STEP 2/Label_Address of beneficiary' located by 'By.xpath: //label[@class = 'input__label' and (text() = 'Address of beneficiary' or . = 'Address of beneficiary')]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.verifyElementVisible(VerifyElementVisibleKeyword.groovy:97)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleKeyword.execute(VerifyElementVisibleKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(WebUiBuiltInKeywords.groovy:372)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementVisible$2.call(Unknown Source)
+	at Script1539716134718.run(Script1539716134718.groovy:132)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1540388641545.run(TempTestSuite1540388641545.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

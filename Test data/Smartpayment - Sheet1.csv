@@ -1,0 +1,4 @@
+IBAN,BIC,Amount,BeneficiaryName,AddressOfBeneficiary,City,PostCode,StateProvince,CountryStep2,RemittanceInfo,OperatorNote,CountyStep1
+BE19140001517218,ABNABEBRXXX,2.01,Tester Testerov,Testerov St.,Test City,XX666XX,Test hell,Guam,Some info,Some Note,Belgium
+CZ8372746198380075273635,CNBACZPP,2.02,Test Name,,,,,,REM info,OP note,Czech Republic
+BG61CVZB28171229454214,CITIBGSFXXX,2.03,Test Bname,Test Street,City test,XX000XX,Hell test,Belize,Info,Note,Bulgaria

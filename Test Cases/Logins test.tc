@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Logins test</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc1db9b4-4ec8-4513-840e-533c050bdd07</testCaseGuid>
+   <variable>
+      <defaultValue>'john.doe@leveris.com'</defaultValue>
+      <description></description>
+      <id>53251e22-83c8-4c4b-a452-2967cf124387</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password1122'</defaultValue>
+      <description></description>
+      <id>0750d03f-d394-4f56-b1e3-1e2225ee219f</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
