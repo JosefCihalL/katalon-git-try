@@ -4,7 +4,7 @@
    <name>Smoke</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-29T14:27:01</lastRun>
+   <lastRun>2018-11-13T10:28:04</lastRun>
    <mailRecipient>josef.cihal@leveris.com;</mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

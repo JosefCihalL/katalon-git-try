@@ -39,8 +39,6 @@ WebUI.verifyElementVisible(findTestObject('Home page/Dropdown_Onboarding'))
 
 WebUI.verifyElementVisible(findTestObject('Home page/Dropdown_Operator'))
 
-WebUI.verifyElementVisible(findTestObject('Home page/Dropdown_Product Management'))
-
 WebUI.verifyElementVisible(findTestObject('Home page/Dropdown_Payments'))
 
 WebUI.verifyElementVisible(findTestObject('Home page/Dropdown_Administration'))

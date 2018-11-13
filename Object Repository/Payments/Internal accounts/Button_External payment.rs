@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>(//button[@type='button'])[4]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'button' and @class = 'inputs__button inputs__button_link lib-dropdown-button-menu-item my-dropdown-button-menu__item-external-pay-wiz-btn']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputs__button inputs__button_link lib-dropdown-button-menu-item my-dropdown-button-menu__item-external-pay-btn</value>
+      <value>inputs__button inputs__button_link lib-dropdown-button-menu-item my-dropdown-button-menu__item-external-pay-wiz-btn</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -19,10 +19,6 @@ WebUI.click(findTestObject('Home page/Button_Home'))
 
 WebUI.click(findTestObject('Home page/Dropdown_Payments'))
 
-WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Direct Debit'))
-
-WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Direct Debit'))
-
 WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Credit Transfer'))
 
 WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Credit Transfer'))

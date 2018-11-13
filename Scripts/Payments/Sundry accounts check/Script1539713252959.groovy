@@ -21,17 +21,9 @@ WebUI.click(findTestObject('Home page/Dropdown_Payments'))
 
 WebUI.click(findTestObject('Payments/Guidepost_Sundry accounts'))
 
-WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Label_Product area'))
-
-WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Input_Product area'))
-
-WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Select_Product area'))
-
 WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Button_Search'))
 
 WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Button_Sundry accounts - Create new account'))
-
-WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Label_Product area'))
 
 WebUI.click(findTestObject('Payments/Sundry accounts/Button_Sundry accounts - Create new account'))
 
@@ -49,8 +41,6 @@ WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Create new a
 
 WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Create new account/Button_Cancel'))
 
-WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Create new account/Label_Product area'))
-
 WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Create new account/Label_Type (asset or liability account)'))
 
 WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Create new account/Button_Create new account'))
@@ -60,8 +50,6 @@ WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Create new a
 WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Create new account/Input_External number'))
 
 WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Create new account/Input_Account name'))
-
-WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Create new account/Select_Product area'))
 
 WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/Create new account/Select_Type (asset or liability account)'))
 

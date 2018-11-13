@@ -1,0 +1,130 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+API smoke,,,2018-11-13 10:31:19,2018-11-13 10:31:22,"3,540s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:19,2018-11-13 10:31:21,"1,827s",PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:20,2018-11-13 10:31:21,"1,400s",PASSED
+verifyResponseStatusCode,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,015s",PASSED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,069s",PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,053s",PASSED
+verifyResponseStatusCode,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,003s",PASSED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,054s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,040s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,019s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,007s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,025s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,015s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,034s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,019s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,026s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,032s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,015s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,026s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,011s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,020s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,018s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,028s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,011s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,055s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,039s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,035s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:21,"0,007s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:21,2018-11-13 10:31:22,"0,074s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:21,2018-11-13 10:31:22,"0,053s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,018s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,020s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,010s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,017s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,007s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,028s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,005s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,015s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,008s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,015s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,007s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,020s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,005s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,145s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,005s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,022s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,011s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,019s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,015s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,005s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,014s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,020s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,013s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,004s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,014s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,019s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,009s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,019s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,012s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,004s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,020s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,004s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,014s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,012s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,005s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,012s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,005s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,016s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,006s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,011s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,005s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,017s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,008s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,013s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,005s",FAILED
+,,,,,,
+Test Cases/API/API test,,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,016s",FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE]))",,,2018-11-13 10:31:22,2018-11-13 10:31:22,"0,008s",FAILED
