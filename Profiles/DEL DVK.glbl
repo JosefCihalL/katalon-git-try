@@ -9,4 +9,9 @@
       <initValue>'https://dvk.deltecdev.com/operator/'</initValue>
       <name>Environment</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>AccountName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SmartPayment - For cycle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5986cfe-e173-458c-82da-3be55c4c679c</testCaseGuid>
+   <variable>
+      <defaultValue>'BG61CVZB28171229454214'</defaultValue>
+      <description></description>
+      <id>d79a5b60-570c-4f17-b9c1-b02f91efde4a</id>
+      <masked>false</masked>
+      <name>IBAN</name>
+   </variable>
+   <variable>
+      <defaultValue>'CITIBGSFXXX'</defaultValue>
+      <description></description>
+      <id>9cfce2ec-48a0-42fd-aac3-1298a3c2d176</id>
+      <masked>false</masked>
+      <name>BIC</name>
+   </variable>
+   <variable>
+      <defaultValue>'2.02'</defaultValue>
+      <description></description>
+      <id>2dd74317-dcf6-46a3-be88-126a6647d58d</id>
+      <masked>false</masked>
+      <name>Amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bulgaria'</defaultValue>
+      <description></description>
+      <id>24205637-f1d4-4b71-ab1e-a230d210a51f</id>
+      <masked>false</masked>
+      <name>CountryStep1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Name'</defaultValue>
+      <description></description>
+      <id>6e33b9d1-95fc-446a-9d52-494d3de0dde7</id>
+      <masked>false</masked>
+      <name>BeneficiaryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Adress of beneficiary test'</defaultValue>
+      <description></description>
+      <id>73750037-f921-4ebc-9b08-6dd4172066af</id>
+      <masked>false</masked>
+      <name>AddressOfBeneficiary</name>
+   </variable>
+   <variable>
+      <defaultValue>'City test'</defaultValue>
+      <description></description>
+      <id>a5d7854e-62d4-43fb-bce4-209d2b484642</id>
+      <masked>false</masked>
+      <name>City</name>
+   </variable>
+   <variable>
+      <defaultValue>'Post code test'</defaultValue>
+      <description></description>
+      <id>d8590af4-6668-4d25-a4ae-426f6b667a7a</id>
+      <masked>false</masked>
+      <name>PostCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'State province test'</defaultValue>
+      <description></description>
+      <id>4b47a2da-a7ce-4aed-be89-76459c554225</id>
+      <masked>false</masked>
+      <name>StateProvince</name>
+   </variable>
+   <variable>
+      <defaultValue>'Bahamas'</defaultValue>
+      <description></description>
+      <id>dd01a2ae-bd23-4184-8466-ce2f30ae6c5d</id>
+      <masked>false</masked>
+      <name>CountryStep2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Remittance info test'</defaultValue>
+      <description></description>
+      <id>e6615882-5bf9-4969-9731-d64892051880</id>
+      <masked>false</masked>
+      <name>RemittanceInfo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Operator note test'</defaultValue>
+      <description></description>
+      <id>29e79b60-a061-41bc-a3f7-3f7a32b66a37</id>
+      <masked>false</masked>
+      <name>OperatorNote</name>
+   </variable>
+</TestCaseEntity>

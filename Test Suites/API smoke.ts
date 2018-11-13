@@ -4,7 +4,7 @@
    <name>API smoke</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-13T10:28:14</lastRun>
+   <lastRun>2018-11-13T16:38:45</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -27,14 +27,14 @@
       </testDataLink>
       <variableLink>
          <testDataLinkId>2afbf76d-251a-4c60-8d95-2eb621bc2684</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>nullURL</value>
+         <type>DATA_COLUMN_INDEX</type>
+         <value>2</value>
          <variableId>f773e175-d5e8-457d-95f6-0fb822bdd5bb</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>2afbf76d-251a-4c60-8d95-2eb621bc2684</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Response</value>
+         <type>DATA_COLUMN_INDEX</type>
+         <value>4</value>
          <variableId>98e99fd8-7d42-4496-ae9a-864e9fb76ca0</variableId>
       </variableLink>
    </testCaseLink>

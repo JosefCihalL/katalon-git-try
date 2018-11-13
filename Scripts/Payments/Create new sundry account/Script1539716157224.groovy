@@ -33,7 +33,7 @@ String tsAsString = ts.toString()
 WebUI.setText(findTestObject('Payments/Sundry accounts/Create new account/Input_Account name'), 'QAA test Katalon - ' + 
     tsAsString)
 
-AccountName = ('QAA test Katalon - ' + tsAsString)
+GlobalVariable.AccountName = ('QAA test Katalon - ' + tsAsString)
 
 WebUI.selectOptionByValue(findTestObject('Payments/Sundry accounts/Create new account/Select_Type (asset or liability account)'), 
     'Liability', false)

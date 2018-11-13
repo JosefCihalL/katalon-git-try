@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button_Done</name>
+   <name>Button_Create order</name>
    <tag></tag>
    <elementGuidId>b81f5504-6fac-4b01-bd0a-ccee6b93c7b6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'submit' and @class = 'inputs__button inputs__button_primary footer-buttons__confirm']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,21 +35,21 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputs__button inputs__button_primary lib-ldb-stepper-footer-buttons__next-done-step</value>
+      <value>inputs__button inputs__button_primary footer-buttons__confirm</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Done</value>
+      <value>Create order</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modal&quot;)/div[1]/div[@class=&quot;modal modal_pay-external-payment-modal modal_full&quot;]/div[@class=&quot;modal__dialog modal__dialog_full&quot;]/div[@class=&quot;modal__content modal__content_full&quot;]/div[@class=&quot;modal__body&quot;]/div[@class=&quot;ldb-lib-modal-box-container&quot;]/div[@class=&quot;ldb-lib-modal-box ldb-lib-modal-box_large&quot;]/form[@class=&quot;inputs_inline ldb-lib-form&quot;]/div[@class=&quot;lib-validation-scroll&quot;]/div[@class=&quot;lib-ldb-stepper&quot;]/div[@class=&quot;lib-ldb-stepper__content&quot;]/div[@class=&quot;ldb-lib-modal-box-container&quot;]/div[@class=&quot;ldb-lib-modal-box ldb-lib-modal-box_large&quot;]/div[1]/div[@class=&quot;lib-ldb-stepper-footer-buttons&quot;]/button[@class=&quot;inputs__button inputs__button_primary lib-ldb-stepper-footer-buttons__next-done-step&quot;]</value>
+      <value>id(&quot;modal&quot;)/div[1]/div[@class=&quot;modal modal_pay-ext-payment-wizard-modal modal_full&quot;]/div[@class=&quot;modal__dialog modal__dialog_full&quot;]/div[@class=&quot;modal__content modal__content_full&quot;]/div[@class=&quot;modal__body&quot;]/div[@class=&quot;pay-ext-payment-wizard&quot;]/div[@class=&quot;lib-ldb-stepper&quot;]/div[@class=&quot;lib-ldb-stepper__content&quot;]/div[@class=&quot;pay-external-additional-details&quot;]/div[@class=&quot;ldb-lib-modal-box-container&quot;]/div[@class=&quot;ldb-lib-modal-box ldb-lib-modal-box_large&quot;]/div[@class=&quot;generated-form&quot;]/form[@class=&quot;ldb-lib-form inputs_inline&quot;]/div[@class=&quot;lib-validation-scroll&quot;]/div[@class=&quot;footer-buttons&quot;]/button[@class=&quot;inputs__button inputs__button_primary footer-buttons__confirm&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

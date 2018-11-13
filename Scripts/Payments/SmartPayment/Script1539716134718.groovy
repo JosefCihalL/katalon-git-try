@@ -13,7 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Payments/Create new sundry account'), [('AccountName') : ''], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login'), [('Username') : 'john.doe@leveris.com', ('Password') : 'Password1122'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Home page/Button_Home'))
+
+WebUI.click(findTestObject('Home page/Dropdown_Payments'))
+
+WebUI.click(findTestObject('Payments/Guidepost_Sundry accounts'))
+
+WebUI.setText(findTestObject('Payments/Sundry accounts/Input_Account number'), GlobalVariable.AccountName)
+
+WebUI.click(findTestObject('Payments/Sundry accounts/Button_Search'))
+
+WebUI.click(findTestObject('Payments/Sundry accounts/TableValue_Account name'))
 
 WebUI.click(findTestObject('Payments/Internal accounts/Button_Actions'))
 
@@ -146,7 +158,7 @@ if (CountryStep1 == 'Czech Republic') {
 
     WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Label_Country'))
 
-    WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Select_Country'))
+    WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Select_countryElse'))
 
     WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Label_Remittance info'))
 
@@ -160,7 +172,7 @@ if (CountryStep1 == 'Czech Republic') {
 
     WebUI.setText(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Input_Address of beneficiary'), AddressOfBeneficiary)
 
-    WebUI.selectOptionByLabel(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Select_Country'), CountryStep2, 
+    WebUI.selectOptionByLabel(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Select_countryElse'), CountryStep2, 
         false)
 
     WebUI.setText(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Input_City'), City)
@@ -174,9 +186,5 @@ if (CountryStep1 == 'Czech Republic') {
     WebUI.setText(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Input_Operator note'), OperatorNote)
 }
 
-WebUI.click(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Button_Done'))
-
-WebUI.click(findTestObject('Payments/Sundry accounts/External payment/Approve order/Button_Approve order'))
-
-WebUI.verifyElementVisible(findTestObject('Payments/Sundry accounts/External payment/Approve order/Label_Payment detail'))
+WebUI.click(findTestObject('Payments/Sundry accounts/External payment/STEP 2/Button_Create order'))
 

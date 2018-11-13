@@ -6,19 +6,19 @@
    <elementGuidId>ed4d0923-279a-465e-b4ea-27c7eb9087a4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>//select[@class = 'select__input select_benCountry' or @class = 'select__input input_benCountry']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//select[@class = 'select__input input_benCountry' or 'select__input select_benCountry']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//select[@class = 'select__input select_benCountry']</value>
+         <value>//select[@class = 'select__input pay-external-additional-details__form-input pay-external-additional-details__form-input_input_benCountry']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>//select[@class = 'select__input select_benCountry' or @class = 'select__input input_benCountry']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>select__input select_benCountry</value>
+      <value>select__input pay-external-additional-details__form-input pay-external-additional-details__form-input_input_benCountry</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

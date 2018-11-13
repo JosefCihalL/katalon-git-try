@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>(//button[@type='button'])[3]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @class = 'inputs__button inputs__button_link footer-buttons__cancel']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>inputs__button inputs__button_link lib-ldb-stepper-footer-buttons__cancel</value>
+      <value>inputs__button inputs__button_link footer-buttons__cancel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

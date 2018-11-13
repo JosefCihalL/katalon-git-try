@@ -15,6 +15,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.Environment)
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Login page/Input_Email'), Username)
 
 WebUI.setText(findTestObject('Login page/Input_Password'), Password)

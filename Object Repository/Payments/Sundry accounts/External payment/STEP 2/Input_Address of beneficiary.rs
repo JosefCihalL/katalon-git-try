@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//input[@id='f6c5-074b-444c-c3b6']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @class = 'input__input pay-external-additional-details__form-input pay-external-additional-details__form-input_input_benAddress1']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input__input input_benAddress1</value>
+      <value>input__input pay-external-additional-details__form-input pay-external-additional-details__form-input_input_benAddress1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

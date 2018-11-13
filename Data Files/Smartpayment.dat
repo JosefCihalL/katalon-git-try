@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>363c175c-c8d2-4fdd-9bde-f25c590b6a9e</dataFileGUID>
-   <dataSourceUrl>/Users/josefcihal/Automation/Leveris POC/Test data/Smartpayment - Sheet1.csv</dataSourceUrl>
+   <dataSourceUrl>/Users/josefcihal/GIT/katalon-git-try-local/katalon-git-try/Test data/Smartpayment - Sheet1.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

@@ -52,14 +52,14 @@ class PaymentTest {
 	 */
 	@Given("I want to log in to the system")
 	def I_want_to_log_in_to_the_system() {
-		println "Pokus"		
+		println "Pokus"
 		WebUI.openBrowser("https://dvk.deltecdev.com/operator")
 		WebUI.setText(findTestObject('Login page/Input_Email'), "john.doe@leveris.com")
 		WebUI.setText(findTestObject('Login page/Input_Password'), "Password1122")
 		WebUI.click(findTestObject('Login page/Button_Log in'))
 		WebUI.verifyElementVisible(findTestObject('Home page/Label_Home'))
 	}
-	
+
 	@When("I go to Payments app")
 	def I_go_to_Payments_app() {
 		WebUI.click(findTestObject('Home page/Button_Home'))
@@ -68,29 +68,27 @@ class PaymentTest {
 
 	@Then("I can see all Payments guideposts with correct inner text")
 	def I_can_see_all_Payments_guideposts_with_correct_inner_text() {
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Direct Debit'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Direct Debit'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Credit Transfer'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Credit Transfer'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_SEPA Payment order'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_SEPA Payment order'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Payment orders'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Payment orders'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Internal payment order'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Internal payment order'))	
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Statements'))	
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Statements'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_AML'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_AML'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Payment files'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Payment files'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Sundry accounts'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Sundry accounts'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Reconciliation'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Reconciliation'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_External nostro accounts'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_External nostro accounts'))		
-		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Internal accounts'))	
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Credit Transfer'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Credit Transfer'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_SEPA Payment order'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_SEPA Payment order'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Payment orders'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Payment orders'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Internal payment order'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Internal payment order'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Statements'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Statements'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_AML'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_AML'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Payment files'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Payment files'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Sundry accounts'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Sundry accounts'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Reconciliation'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Reconciliation'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_External nostro accounts'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_External nostro accounts'))
+		WebUI.verifyElementVisible(findTestObject('Payments/Guidepost_Internal accounts'))
 		WebUI.verifyElementVisible(findTestObject('Payments/Innertext_Internal accounts'))
 	}
 }

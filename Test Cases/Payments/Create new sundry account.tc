@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>d09092b4-290c-4058-862e-e8fef27434c5</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>GlobalVariable.AccountName</defaultValue>
       <description></description>
       <id>da236f9b-e16a-4c0b-86a7-b29d5497f2f9</id>
       <masked>false</masked>
