@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="API smoke" time="23" tests="35" failures="0" errors="0">
+   <testsuite name="API smoke" tests="35" failures="0" errors="0" time="23" timestamp="2018-11-14 09:55:50" hostname="josefcihal - 192.168.5.138" id="Test Suites/API smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/josefcihal/GIT/katalon-git-try-local/katalon-git-try/Reports/API smoke/20181114_095411"/>
+         <property name="logFiles" value="/Users/josefcihal/GIT/katalon-git-try-local/katalon-git-try/Reports/API smoke/20181114_095411/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="josefcihal - 192.168.5.138"/>
+         <property name="hostAddress" value="192.168.5.138"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+      </properties>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:50 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:51 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:51 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:51 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:51 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:51 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:51 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:51 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:51 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:52 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:52 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:52 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:52 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:52 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:52 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:52 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:52 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:52 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:53 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:53 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:53 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:53 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:53 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:54 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:54 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:54 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:54 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:55 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:55 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:55 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:55 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:55 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:56 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:56 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:56 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:57 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:57 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:57 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:57 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:57 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:55:59 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:55:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:55:59 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:55:59 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:55:59 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:00 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:00 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:00 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:00 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:00 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:00 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:01 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:01 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:01 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:01 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:01 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:01 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:01 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:02 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:02 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:02 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:02 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:02 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:03 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:03 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:03 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:03 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:03 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:03 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:05 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:05 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:05 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:05 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:06 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:06 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:06 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:07 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:07 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:07 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:07 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:07 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:07 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:07 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:07 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:08 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:08 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:08 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:08 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:09 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:09 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:09 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:09 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:10 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:10 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:10 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:11 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:11 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:11 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:12 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:12 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:12 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:12 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:12 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:12 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:12 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:13 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:13 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:13 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:13 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API test" classname="Test Cases/API/API test" status="PASSED">
+         <system-out><![CDATA[2018-11-14 09:56:13 - [TEST_CASE][PASSED] - Test Cases/API/API test: Test Cases/API/API test
+
+2018-11-14 09:56:13 - [TEST_STEP][PASSED] - Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(APIs/API request, [URLE:URLE])): Send request successfully
+
+2018-11-14 09:56:13 - [MESSAGE][PASSED] - Send request successfully
+
+2018-11-14 09:56:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode: Verify response status code successfully
+
+2018-11-14 09:56:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-14 09:55:50 - [TEST_SUITE][PASSED] - API smoke: Test Cases/API/API test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
